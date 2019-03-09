@@ -3,6 +3,6 @@
     "aerialway": {"fields": ["aerialway"], "geometry": ["point", "vertex", "line"], "tags": {"aerialway": "*"}, "terms": ["ski lift", "funifor", "funitel"], "searchable": true, "name": "Aerialway"},
     	    "amenity/vending_machine/parking_tickets": {"icon": "temaki-vending_machine", "fields": ["vending", "operator", "payment_multi", "currency_multi"], "geometry": ["point"], "terms": ["parking", "ticket"], "tags": {"amenity": "vending_machine", "vending": "parking_tickets"}, "reference": {"key": "vending", "value": "parking_tickets"}, "matchScore": 0.94, "name": "Parking Ticket Vending Machine"},
 		    "healthcare/alternative": {"icon": "maki-hospital", "fields": ["name", "operator", "healthcare/speciality", "building_area", "address", "opening_hours"], "geometry": ["point", "area"], "terms": ["acupuncture", "anthroposophical", "applied kinesiology", "aromatherapy", "ayurveda", "herbalism", "homeopathy", "hydrotherapy", "hypnosis", "naturopathy", "osteopathy", "reflexology", "reiki", "shiatsu", "traditional", "tuina", "unani"], "tags": {"healthcare": "alternative"}, "name": "Alternative Medicine"},
-			"ES:R1": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["ES", "R1", "STOP"], "searchable": true, "tags": {"traffic_sign_forward": "ES_R1", "side": "right"}, "name": "SOTP"}
+			"ES:R1": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["ES", "R1", "STOP"], "searchable": true, "tags": {"traffic_sign:forward": "ES:R1", "side": "right"}, "name": "SOTP"}
   }
 }
