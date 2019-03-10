@@ -11,13 +11,21 @@ In October 2018, a new OpenStreetMap tool called Deriviste was introduced by Ric
 With a fork of this tool called Deriviste_traffic_signs you have a simple interface to add nodes to OpenStreetMap based on what you see in Mapillary street-level imagery.
 
     Click a place on the map with a green highlight.
-    Double-click a traffic_sign object on the street imagery to place a node there.
-    Use the search box to find the code for this country in the preset.
-    Complete the tags using the right-hand tag table (don't forget key side).Delete the code for what direction is not. Deriviste screenshot4.png
-    Repeat until you're done.
-    Enter your OSM username and password, then click 'Upload'.
-    Make an overpass-turbo query to detect the new nodes (you can try to find traffic_sign:forward or traffic_sign backward)
-    Export it to other editor like JOSM, Vespucci, iD or Potlatch. Now you can attach to the road the traffic sign if you want to. Also you can remove any duplicates and generally clean up. The Mapillary API sometimes fails to find co-ordinates for a click.
+    
+	Double-click a traffic_sign object on the street imagery to place a node there.
+    
+	Use the search box to find the code for this country in the preset.
+    
+	Complete the tags using the right-hand tag table (don't forget key side).Delete the code for what direction is not. Deriviste screenshot4.png
+    
+	Repeat until you're done.
+    
+	Enter your OSM username and password, then click 'Upload'.
+    
+	Make an overpass-turbo query to detect the new nodes (you can try to find traffic_sign:forward or traffic_sign backward)
+    
+	Export it to other editor like JOSM, Vespucci, iD or Potlatch. Now you can attach to the road the traffic sign if you want to. Also you can remove any 
+	duplicates and generally clean up. The Mapillary API sometimes fails to find co-ordinates for a click.
 
 The currently selected node is shown in red, others in blue. You can drag the nodes around to fine-tune their position. (You can also place nodes by double-clicking on the map.) 
 
