@@ -67,8 +67,6 @@
 
 "ES:CAT_radar": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "cat_radar", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:CAT_radar", "traffic_sign:backward": "ES:CAT_radar", "": "", "side": ""}, "name": "ES:CAT_radar"},
 
-"ES:CAT_radar": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "cat_radar", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:CAT_radar", "traffic_sign:backward": "ES:CAT_radar", "": "", "side": ""}, "name": "ES:CAT_radar"},
-
 "ES:CAT_S200": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "cat_s200", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:CAT_S200", "traffic_sign:backward": "ES:CAT_S200", "": "", "side": ""}, "name": "ES:CAT_S200"},
 
 "ES:CAT_S200b": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "cat_s200b", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:CAT_S200b", "traffic_sign:backward": "ES:CAT_S200b", "": "", "side": ""}, "name": "ES:CAT_S200b"},
@@ -1357,7 +1355,13 @@
 
 "ES:trunk": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "trunk", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:trunk", "traffic_sign:backward": "ES:trunk", "": "", "side": ""}, "name": "ES:trunk"},
 
+"Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
+"Parada de bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "bus_stop", "public_transport", "platform", "stop_position"], "searchable": true, "tags": {"public_transport": ""}, "name": "Parada de bus"},
+
+"Paso de peatones": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "crossing", "uncontrolled", "unmarked", "cebra"], "searchable": true, "tags": {"highway": "crossing", "crossing": ""}, "name": "Paso de peatones"},
+
+"Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semáforo"},
 
 
 
