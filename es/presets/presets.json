@@ -1363,6 +1363,19 @@
 
 "Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semáforo"},
 
+"Contenedor orgánica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "green_waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:green_waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor orgánica"},
+
+"Contenedor papel": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "paper", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:paper": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor papel"},
+
+"Contenedor pilas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "batteries", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:batteries": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor pilas"},
+
+"Contenedor ropa": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "clothes", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:clothes": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor ropa"},
+
+"Contenedor vidrio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "botellas", "cristal", "recycling", "opening", "operator", "glass", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:glass_bottles": "yes", "recycling:glass": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor vidrio"},
+
+"Contenedor rechazo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor rechazo"},
+
+"Contenedor plástico": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envases", "botellas", "operator", "packaging" "bottles" "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor plástico"},
 
 
 "ES:R1": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "S2", "stop"], "searchable": true, "tags": {"traffic_sign:forward": "ES:R1", "traffic_sign:backward": "ES:R1", "side": "right"}, "name": "ES:R1"}
