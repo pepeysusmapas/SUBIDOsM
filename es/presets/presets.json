@@ -1375,7 +1375,7 @@
 
 "Contenedor rechazo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor rechazo"},
 
-"Contenedor plástico": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envases", "botellas", "operator", "packaging" "bottles" "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor plástico"},
+"Contenedor plástico": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envases", "botellas", "operator", "packaging", "bottles", "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor plástico"},
 
 
 "ES:R1": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "S2", "stop"], "searchable": true, "tags": {"traffic_sign:forward": "ES:R1", "traffic_sign:backward": "ES:R1", "side": "right"}, "name": "ES:R1"}
