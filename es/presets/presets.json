@@ -1355,6 +1355,10 @@
 
 "ES:trunk": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "trunk", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:trunk", "traffic_sign:backward": "ES:trunk", "": "", "side": ""}, "name": "ES:trunk"},
 
+"Árbol": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["natural", "tree"], "searchable": true, "tags": {"natural": "tree"}, "name": "Árbol"},
+
+"Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzón"},
+
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
 "Parada de bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "bus_stop", "public_transport", "platform", "stop_position"], "searchable": true, "tags": {"public_transport": ""}, "name": "Parada de bus"},
@@ -1376,6 +1380,15 @@
 "Contenedor rechazo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor rechazo"},
 
 "Contenedor plástico": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envases", "botellas", "operator", "packaging", "bottles", "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor plástico"},
+
+"Farmacia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "pharmacy", "name"], "searchable": true, "tags": {"amenity": "pharmacy", "name": ""}, "name": "Farmacia"},
+
+"Fuente": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "agua", "interior", "indoor", "potable", "drinking_water"], "searchable": true, "tags": {"amenity": "drinking_water", "indoor": ""}, "name": "Fuente"},
+
+"Papelera": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "waste_basket", "waste", "trash"], "searchable": true, "tags": {"amenity": "waste_basket", "waste": "trash"}, "name": "Papelera"},
+
+"Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquímetro"},
+
 
 
 "ES:R1": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "S2", "stop"], "searchable": true, "tags": {"traffic_sign:forward": "ES:R1", "traffic_sign:backward": "ES:R1", "side": "right"}, "name": "ES:R1"}
