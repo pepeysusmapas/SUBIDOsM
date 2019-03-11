@@ -1361,11 +1361,11 @@
 
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
-"Parada de bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "bus_stop", "public_transport", "platform", "stop_position"], "searchable": true, "tags": {"public_transport": ""}, "name": "Parada de bus"},
 
-"Paso de peatones": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "crossing", "uncontrolled", "unmarked", "cebra"], "searchable": true, "tags": {"highway": "crossing", "crossing": ""}, "name": "Paso de peatones"},
+"Cabina telefónica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "telephone", "covered", "booth", "monedas", "coins", "card", "tarjeta", "operator", "Telefónica", "payment"], "searchable": true, "tags": {"amenity": "telephone", "covered": "booth", "operator": "Telefónica", "payment:coins": "yes", "payment:telephone_cards": "yes"}, "name": "Cabina telefónica"},
 
-"Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semáforo"},
+"Cámara videovigilancia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "surveillance", "type", "zone", "outdoor", "interior", "exterior", "tráfico"], "searchable": true, "tags": {"man_made": "surveillance", "surveillance:type": "camera", "surveillance:zone": "shop", "surveillance": "outdoor"}, "name": "Cámara videovigilancia"},
+
 
 "Contenedor orgánica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "green_waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:green_waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor orgánica"},
 
@@ -1385,7 +1385,16 @@
 
 "Fuente": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "agua", "interior", "indoor", "potable", "drinking_water"], "searchable": true, "tags": {"amenity": "drinking_water", "indoor": ""}, "name": "Fuente"},
 
+"Hidrante": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "fire_hydrant", "boca", "incendio", "fuego"], "searchable": true, "tags": {"emergency": "fire_hydrant"}, "name": "Hidrante"},
+
 "Papelera": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "waste_basket", "waste", "trash"], "searchable": true, "tags": {"amenity": "waste_basket", "waste": "trash"}, "name": "Papelera"},
+
+"Parada de bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "bus_stop", "public_transport", "platform", "stop_position"], "searchable": true, "tags": {"public_transport": ""}, "name": "Parada de bus"},
+
+"Paso de peatones": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "crossing", "uncontrolled", "unmarked", "cebra"], "searchable": true, "tags": {"highway": "crossing", "crossing": ""}, "name": "Paso de peatones"},
+
+"Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semáforo"},
+
 
 "Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquímetro"},
 
