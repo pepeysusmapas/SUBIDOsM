@@ -1355,16 +1355,18 @@
 
 "ES:trunk": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "trunk", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:trunk", "traffic_sign:backward": "ES:trunk", "": "", "side": ""}, "name": "ES:trunk"},
 
-"Árbol": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["natural", "tree"], "searchable": true, "tags": {"natural": "tree"}, "name": "Árbol"},
+"Árbol": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["natural", "tree"], "searchable": true, "tags": {"natural": "tree"}, "name": "Arbol"},
 
-"Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzón"},
+"Banco": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bench", "backrest", "respaldo", "material", "wood", "madera"], "searchable": true, "tags": {"amenity": "bench", "backrest": "yes", "material": "wood", "seats": "3"}, "name": "Banco"},
+
+"Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzon"},
 
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
 
 "Cabina telefónica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "telephone", "covered", "booth", "monedas", "coins", "card", "tarjeta", "operator", "Telefónica", "payment"], "searchable": true, "tags": {"amenity": "telephone", "covered": "booth", "operator": "Telefónica", "payment:coins": "yes", "payment:telephone_cards": "yes"}, "name": "Cabina telefónica"},
 
-"Cámara videovigilancia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "surveillance", "type", "zone", "outdoor", "interior", "exterior", "tráfico"], "searchable": true, "tags": {"man_made": "surveillance", "surveillance:type": "camera", "surveillance:zone": "shop", "surveillance": "outdoor"}, "name": "Cámara videovigilancia"},
+"Cámara videovigilancia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "surveillance", "type", "zone", "outdoor", "interior", "exterior", "tráfico"], "searchable": true, "tags": {"man_made": "surveillance", "surveillance:type": "camera", "surveillance:zone": "shop", "surveillance": "outdoor"}, "name": "Camara videovigilancia"},
 
 
 "Contenedor orgánica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "green_waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:green_waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor orgánica"},
@@ -1393,10 +1395,10 @@
 
 "Paso de peatones": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "crossing", "uncontrolled", "unmarked", "cebra"], "searchable": true, "tags": {"highway": "crossing", "crossing": ""}, "name": "Paso de peatones"},
 
-"Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semáforo"},
+"Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semaforo"},
 
 
-"Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquímetro"},
+"Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquimetro"},
 
 
 
