@@ -1359,6 +1359,8 @@
 
 "Banco": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bench", "backrest", "respaldo", "material", "wood", "madera"], "searchable": true, "tags": {"amenity": "bench", "backrest": "yes", "material": "wood", "seats": "3"}, "name": "Banco"},
 
+"Bolardo - Pilona": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["barrier", "bollard", "rising", "material", "metal", "pilona"], "searchable": true, "tags": {"barrier": "bollard", "bollard": "rising", "foot": "yes", "material": "metal"}, "name": "Bolardo - Pilona"},
+
 "Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzon"},
 
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
@@ -1368,6 +1370,7 @@
 
 "Cámara videovigilancia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "surveillance", "type", "zone", "outdoor", "interior", "exterior", "tráfico"], "searchable": true, "tags": {"man_made": "surveillance", "surveillance:type": "camera", "surveillance:zone": "shop", "surveillance": "outdoor"}, "name": "Camara videovigilancia"},
 
+"Cargador vehículos eléctricos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "charging_station", "authentication", "capacity", "car", "scooter", "fee", "recarga", "punto"], "searchable": true, "tags": {"amenity": "charging_station", "authentication:membership_card": "yes", "authentication:nfc": "yes", "car": "yes", "opening_hours": "24/7", "scooter": "yes", "fee": "yes", "capacity": "2"}, "name": "Cargador vehículos eléctricos"},
 
 "Contenedor orgánica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "green_waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:green_waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor orgánica"},
 
