@@ -1381,9 +1381,13 @@
 
 "Banco": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bench", "backrest", "respaldo", "material", "wood", "madera"], "searchable": true, "tags": {"amenity": "bench", "backrest": "yes", "material": "wood", "seats": "3"}, "name": "Banco"},
 
+"Bandera": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "flagpole", "flag:type", "signal"], "searchable": true, "tags": {"man_made": "flagpole", "flag:type": "signal"}, "name": "Bandera"},
+
 "Bolardo - Pilona": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["barrier", "bollard", "rising", "material", "metal", "pilona"], "searchable": true, "tags": {"barrier": "bollard", "bollard": "rising", "foot": "yes", "material": "metal"}, "name": "Bolardo - Pilona"},
 
 "Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzon"},
+
+"Escultura": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "sculpture"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "sculpture"}, "name": "Escultura"},
 
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
@@ -1424,6 +1428,18 @@
 
 
 "Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquimetro"},
+
+"Aparcamiento turísico bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "tourist_bus_parking", "parking", "turista", "autobús", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "tourist_bus_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcamiento turístico bus"},
+
+"Aparcamiento bicis": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bicycle_parking", "parking", "bicicleta", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "bicycle_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcamiento bicis"},
+
+"Aparcamiento motos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "motorcycle_parking", "motocicleta", "access", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "motorcycle_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcamiento motos"},
+
+"Plaza aparcamiento minusválidos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking_space", "parking", "disabled", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "parking_space", "capacity:disabled": "1"}, "name": "Plaza aparcamiento minusválidos"},
+
+"Aparcamiento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking", "access", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "parking", "parking": "", "fee": "", "access": ""}, "name": "Aparcamiento"},
+
+"Zona aparcamiento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["parking:lane", "parking:condition", "residentes", "verde", "azul", "estacionamiento", "ora", "zona", "type", "fire_lane", "no_stopping", "no_parking", "marked", "perpendicular", "capacity", "disabled", "parallel", "tiquet"], "searchable": true, "tags": {"parking:lane:right": "", "parking:lane:left": "", "parking:condition:left": "", "parking:condition:right": ""}, "name": "Zona aparcamiento"},
 
 
 
