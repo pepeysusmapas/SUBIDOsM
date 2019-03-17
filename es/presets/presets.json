@@ -1355,6 +1355,28 @@
 
 "ES:trunk": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "trunk", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:trunk", "traffic_sign:backward": "ES:trunk", "": "", "side": ""}, "name": "ES:trunk"},
 
+"Bandera anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "flag", "bandera", "publicitario"], "searchable": true, "tags": {"advertising": "flag"}, "name": "Bandera anuncio"},
+
+"Cartelera anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "board", "cartelera", "publicitario"], "searchable": true, "tags": {"advertising": "board"}, "name": "Cartelera anuncio"},
+
+"Columna anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "columna", "publicitario"], "searchable": true, "tags": {"advertising": "column"}, "name": "Columna anuncio"},
+
+"Escultura anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "sculpture", "escultura", "publicitario"], "searchable": true, "tags": {"advertising": "sculpture"}, "name": "Escultura anuncio"},
+
+"Lona anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "tarp", "lit", "toldo", "lona", "publicitario"], "searchable": true, "tags": {"advertising": "tarp", "lit": ""}, "name": "Lona/Toldo anuncio"},
+
+"Marquesina anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "poster_box", "marquesina", "publicitario"], "searchable": true, "tags": {"advertising": "poster_box"}, "name": "Marquesina anuncio"},
+
+"Muro anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "wall_painting", "muro", "pared", "publicitario"], "searchable": true, "tags": {"advertising": "wall_painting"}, "name": "Muro anuncio"},
+
+"Panel anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "billboard", "cartelera", "publicitario"], "searchable": true, "tags": {"advertising": "billboard"}, "name": "Panel anuncio"},
+
+"Pantalla anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "screen", "pantalla", "publicitario"], "searchable": true, "tags": {"advertising": "screen"}, "name": "Pantalla anuncio"},
+
+"Rótulo anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "sign", "neon", "luminous", "luminoso", "publicitario"], "searchable": true, "tags": {"advertising": "sign", "luminous": "yes"}, "name": "Rótulo anuncio"},
+
+"Tótem anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "totem", "gasolinera", "publicitario"], "searchable": true, "tags": {"advertising": "totem"}, "name": "Tótem anuncio"},
+
 "Árbol": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["natural", "tree"], "searchable": true, "tags": {"natural": "tree"}, "name": "Arbol"},
 
 "Banco": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bench", "backrest", "respaldo", "material", "wood", "madera"], "searchable": true, "tags": {"amenity": "bench", "backrest": "yes", "material": "wood", "seats": "3"}, "name": "Banco"},
