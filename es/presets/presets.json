@@ -1375,7 +1375,9 @@
 
 "Escultura": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "sculpture"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "sculpture"}, "name": "Escultura"},
 
-"Estatua": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "statue"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "statue"}, "name": "Escultura"},
+"Espejo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_mirror", "espejo", "visibilidad"], "searchable": true, "tags": {"highway": "traffic_mirror"}, "name": "Espejo"},
+
+"Estatua": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "statue"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "statue"}, "name": "Estatua"},
 
 "Graffiti": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "graffitti"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "graffiti"}, "name": "Graffiti"},
 
