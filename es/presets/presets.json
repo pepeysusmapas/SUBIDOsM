@@ -1371,6 +1371,8 @@
 
 "Bolardo - Pilona": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["barrier", "bollard", "rising", "material", "metal", "pilona"], "searchable": true, "tags": {"barrier": "bollard", "bollard": "rising", "foot": "yes", "material": "metal"}, "name": "Bolardo - Pilona"},
 
+"Bordillo reducido": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["kerb", "lowered"], "searchable": true, "tags": {"kerb": "lowered"}, "name": "Bordillo reducido"},
+
 "Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzon"},
 
 "Escultura": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "sculpture"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "sculpture"}, "name": "Escultura"},
