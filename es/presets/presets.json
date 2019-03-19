@@ -1111,23 +1111,7 @@
 
 "ES:S560": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s560", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S560", "traffic_sign:backward": "ES:S560", "": "", "side": ""}, "name": "ES:S560"},
 
-"ES:S570": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s570", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S570", "traffic_sign:backward": "ES:S570", "": "", "side": ""}, "name": "ES:S570"},
-
-"ES:S570a": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s570a", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S570a", "traffic_sign:backward": "ES:S570a", "": "", "side": ""}, "name": "ES:S570a"},
-
-"ES:S571": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s571", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S571", "traffic_sign:backward": "ES:S571", "": "", "side": ""}, "name": "ES:S571"},
-
-"ES:S572": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s572", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S572", "traffic_sign:backward": "ES:S572", "": "", "side": ""}, "name": "ES:S572"},
-
-"ES:S573": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s573", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S573", "traffic_sign:backward": "ES:S573", "": "", "side": ""}, "name": "ES:S573"},
-
-"ES:S574": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s574", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S574", "traffic_sign:backward": "ES:S574", "": "", "side": ""}, "name": "ES:S574"},
-
-"ES:S574a": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s574a", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S574a", "traffic_sign:backward": "ES:S574a", "": "", "side": ""}, "name": "ES:S574a"},
-
-"ES:S574b": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s574b", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S574b", "traffic_sign:backward": "ES:S574b", "": "", "side": ""}, "name": "ES:S574b"},
-
-"ES:S575": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s575", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S575", "traffic_sign:backward": "ES:S575", "": "", "side": ""}, "name": "ES:S575"},
+"ES:S572": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "hito", "kilometrico", "punto", "ref", "distance", "s575", "s574", "s573", "s571", "s570", "s572", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S572", "traffic_sign:backward": "ES:S572", "highway": "milestone", "int_ref": "", "ref": "", "distance": "", "side": ""}, "name": "ES:S572"},
 
 "ES:S6": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "s6", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:S6", "traffic_sign:backward": "ES:S6", "": "", "side": ""}, "name": "ES:S6"},
 
@@ -1355,6 +1339,8 @@
 
 "ES:trunk": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic", "forward", "backward", "trunk", ""], "searchable": true, "tags": {"traffic_sign:forward": "ES:trunk", "traffic_sign:backward": "ES:trunk", "": "", "side": ""}, "name": "ES:trunk"},
 
+"Árbol": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["natural", "tree"], "searchable": true, "tags": {"natural": "tree"}, "name": "Arbol"},
+
 "Bandera anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "flag", "bandera", "publicitario"], "searchable": true, "tags": {"advertising": "flag"}, "name": "Bandera anuncio"},
 
 "Cartelera anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "board", "cartelera", "publicitario"], "searchable": true, "tags": {"advertising": "board"}, "name": "Cartelera anuncio"},
@@ -1377,7 +1363,7 @@
 
 "Tótem anuncio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["advertising", "totem", "gasolinera", "publicitario"], "searchable": true, "tags": {"advertising": "totem"}, "name": "Tótem anuncio"},
 
-"Árbol": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["natural", "tree"], "searchable": true, "tags": {"natural": "tree"}, "name": "Arbol"},
+"Badén": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["traffic_calming", "hump"], "searchable": true, "tags": {"traffic_calming": "hump"}, "name": "Badén"},
 
 "Banco": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bench", "backrest", "respaldo", "material", "wood", "madera"], "searchable": true, "tags": {"amenity": "bench", "backrest": "yes", "material": "wood", "seats": "3"}, "name": "Banco"},
 
@@ -1388,6 +1374,10 @@
 "Buzón": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "post_box", "correos", "operator"], "searchable": true, "tags": {"amenity": "post_box", "operator": "Correos"}, "name": "Buzon"},
 
 "Escultura": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "sculpture"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "sculpture"}, "name": "Escultura"},
+
+"Estatua": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "statue"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "statue"}, "name": "Escultura"},
+
+"Graffiti": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "statue"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "graffiti"}, "name": "Graffiti"},
 
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
@@ -1412,11 +1402,15 @@
 
 "Contenedor plástico": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envases", "botellas", "operator", "packaging", "bottles", "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor plástico"},
 
+"Desfibrilador": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "defibrillator", "opening_hours", "access", "emergencia", "salvamento"], "searchable": true, "tags": {"emergency": "defibrillator", "opening_hours": "24/7", "operator": "", "indoor": "yes", "defibrillator:location": "", "access": ""}, "name": "Desfibrilador DEA"},
+
 "Farmacia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "pharmacy", "name"], "searchable": true, "tags": {"amenity": "pharmacy", "name": ""}, "name": "Farmacia"},
 
 "Fuente": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "agua", "interior", "indoor", "potable", "drinking_water"], "searchable": true, "tags": {"amenity": "drinking_water", "indoor": ""}, "name": "Fuente"},
 
 "Hidrante": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "fire_hydrant", "boca", "incendio", "fuego"], "searchable": true, "tags": {"emergency": "fire_hydrant"}, "name": "Hidrante"},
+
+"Monumento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "monument", "historic", "turismo"], "searchable": true, "tags": {"historic": "monument"}, "name": "Monumento"},
 
 "Papelera": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "waste_basket", "waste", "trash"], "searchable": true, "tags": {"amenity": "waste_basket", "waste": "trash"}, "name": "Papelera"},
 
@@ -1426,6 +1420,9 @@
 
 "Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semaforo"},
 
+"Torre eléctrica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["power", "tower", "palo", "design", "poste"], "searchable": true, "tags": {"power": "tower", "design": ""}, "name": "Torre eléctrica"},
+
+"Transformador": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["power", "transformer"], "searchable": true, "tags": {"power": "transformer"}, "name": "Transformador eléctrico"},
 
 "Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquimetro"},
 
@@ -1440,6 +1437,11 @@
 "Aparcamiento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking", "access", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "parking", "parking": "", "fee": "", "access": ""}, "name": "Aparcamiento"},
 
 "Zona aparcamiento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["parking:lane", "parking:condition", "residentes", "verde", "azul", "estacionamiento", "ora", "zona", "type", "fire_lane", "no_stopping", "no_parking", "marked", "perpendicular", "capacity", "disabled", "parallel", "tiquet"], "searchable": true, "tags": {"parking:lane:right": "", "parking:lane:left": "", "parking:condition:left": "", "parking:condition:right": ""}, "name": "Zona aparcamiento"},
+
+"Valla": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["barrier", "fence", "valla", "cerca"], "searchable": true, "tags": {"barrier": "fence"}, "name": "Valla_Cerca"},
+
+
+
 
 
 
