@@ -1377,7 +1377,7 @@
 
 "Estatua": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "statue"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "statue"}, "name": "Escultura"},
 
-"Graffiti": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "statue"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "graffiti"}, "name": "Graffiti"},
+"Graffiti": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turismo", "artwork_type", "graffitti"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "graffiti"}, "name": "Graffiti"},
 
 "Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
 
