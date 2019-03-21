@@ -1383,66 +1383,66 @@
 
 "Grafiti": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "artwork", "arte", "turisme", "artwork_type", "graffitti"], "searchable": true, "tags": {"tourism": "artwork", "artwork_type": "graffiti"}, "name": "Grafiti"},
 
-"Farolas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "luz"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Farolas"},
+"Fanal": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "street_lamp", "llum"], "searchable": true, "tags": {"highway": "street_lamp"}, "name": "Fanal"},
 
 
-"Cabina telefónica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "telephone", "covered", "booth", "monedas", "coins", "card", "tarjeta", "operator", "Telefónica", "payment"], "searchable": true, "tags": {"amenity": "telephone", "covered": "booth", "operator": "Telefónica", "payment:coins": "yes", "payment:telephone_cards": "yes"}, "name": "Cabina telefónica"},
+"Cabina telefònica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "telephone", "covered", "booth", "monedes", "coins", "card", "targeta", "operator", "Telefónica", "payment"], "searchable": true, "tags": {"amenity": "telephone", "covered": "booth", "operator": "Telefónica", "payment:coins": "yes", "payment:telephone_cards": "yes"}, "name": "Cabina telefònica"},
 
-"Cámara videovigilancia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "surveillance", "type", "zone", "outdoor", "interior", "exterior", "tráfico"], "searchable": true, "tags": {"man_made": "surveillance", "surveillance:type": "camera", "surveillance:zone": "shop", "surveillance": "outdoor"}, "name": "Camara videovigilancia"},
+"Càmera videovigilància": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["man_made", "surveillance", "type", "zone", "outdoor", "interior", "exterior", "trànsit"], "searchable": true, "tags": {"man_made": "surveillance", "surveillance:type": "camera", "surveillance:zone": "shop", "surveillance": "outdoor"}, "name": "Càmera videovigilància"},
 
-"Cargador vehículos eléctricos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "charging_station", "authentication", "capacity", "car", "scooter", "fee", "recarga", "punto"], "searchable": true, "tags": {"amenity": "charging_station", "authentication:membership_card": "yes", "authentication:nfc": "yes", "car": "yes", "opening_hours": "24/7", "scooter": "yes", "fee": "yes", "capacity": "2"}, "name": "Cargador vehículos eléctricos"},
+"Carregador vehicles elèctrics": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "charging_station", "authentication", "capacity", "car", "scooter", "fee", "recàrrega", "punt"], "searchable": true, "tags": {"amenity": "charging_station", "authentication:membership_card": "yes", "authentication:nfc": "yes", "car": "yes", "opening_hours": "24/7", "scooter": "yes", "fee": "yes", "capacity": "2"}, "name": "Carregador vehicles elèctrics"},
 
-"Contenedor orgánica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "green_waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:green_waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor orgánica"},
+"Contenidor orgànica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "green_waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:green_waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor orgànica"},
 
-"Contenedor papel": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "paper", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:paper": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor papel"},
+"Contenidor paper": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "paper", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:paper": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor paper"},
 
-"Contenedor pilas": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "batteries", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:batteries": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor pilas"},
+"Contenidor piles": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "batteries", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:batteries": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor piles"},
 
-"Contenedor ropa": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "clothes", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:clothes": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor ropa"},
+"Contenidor roba": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "clothes", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:clothes": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor roba"},
 
-"Contenedor vidrio": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "botellas", "cristal", "recycling", "opening", "operator", "glass", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:glass_bottles": "yes", "recycling:glass": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor vidrio"},
+"Contenidor vidre": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "ampolles", "vidre", "recycling", "opening", "operator", "glass", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:glass_bottles": "yes", "recycling:glass": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor vidre"},
 
-"Contenedor rechazo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor rechazo"},
+"Contenidor rebuig": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "operator", "waste", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:waste": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor rebuig"},
 
-"Contenedor plástico": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envases", "botellas", "operator", "packaging", "bottles", "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenedor plástico"},
+"Contenidor plàstic": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "recycling", "opening", "envasos", "ampolles", "operator", "packaging", "bottles", "plastic", "operator", "reciclar"], "searchable": true, "tags": {"amenity": "recycling", "opening_hours": "24*7", "operator": "", "recycling:plastic_bottles": "yes", "recycling:plastic_packaging": "yes", "recycling_type": "container", "wheelchair": "limited"}, "name": "Contenidor plàstic"},
 
-"Desfibrilador": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "defibrillator", "opening_hours", "access", "emergencia", "salvamento"], "searchable": true, "tags": {"emergency": "defibrillator", "opening_hours": "24/7", "operator": "", "indoor": "yes", "defibrillator:location": "", "access": ""}, "name": "Desfibrilador DEA"},
+"Desfibrilador": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "defibrillator", "opening_hours", "access", "emergència", "salvament"], "searchable": true, "tags": {"emergency": "defibrillator", "opening_hours": "24/7", "operator": "", "indoor": "yes", "defibrillator:location": "", "access": ""}, "name": "Desfibrilador DEA"},
 
-"Farmacia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "pharmacy", "name"], "searchable": true, "tags": {"amenity": "pharmacy", "name": ""}, "name": "Farmacia"},
+"Farmàcia": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "pharmacy", "name"], "searchable": true, "tags": {"amenity": "pharmacy", "name": ""}, "name": "Farmàcia"},
 
-"Fuente": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "agua", "interior", "indoor", "potable", "drinking_water"], "searchable": true, "tags": {"amenity": "drinking_water", "indoor": ""}, "name": "Fuente"},
+"Font": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "aigua", "interior", "indoor", "potable", "drinking_water"], "searchable": true, "tags": {"amenity": "drinking_water", "indoor": ""}, "name": "Font"},
 
-"Hidrante": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "fire_hydrant", "boca", "incendio", "fuego"], "searchable": true, "tags": {"emergency": "fire_hydrant"}, "name": "Hidrante"},
+"Hidrant": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["emergency", "fire_hydrant", "boca", "incendi", "foc"], "searchable": true, "tags": {"emergency": "fire_hydrant"}, "name": "Hidrant"},
 
-"Monumento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "monument", "historic", "turismo"], "searchable": true, "tags": {"historic": "monument"}, "name": "Monumento"},
+"Monument": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["tourism", "monument", "historic", "turisme"], "searchable": true, "tags": {"historic": "monument"}, "name": "Monument"},
 
-"Papelera": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "waste_basket", "waste", "trash"], "searchable": true, "tags": {"amenity": "waste_basket", "waste": "trash"}, "name": "Papelera"},
+"Paperera": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "waste_basket", "waste", "trash"], "searchable": true, "tags": {"amenity": "waste_basket", "waste": "trash"}, "name": "Paperera"},
 
 "Parada de bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "bus_stop", "public_transport", "platform", "stop_position"], "searchable": true, "tags": {"public_transport": ""}, "name": "Parada de bus"},
 
-"Paso de peatones": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "crossing", "uncontrolled", "unmarked", "cebra"], "searchable": true, "tags": {"highway": "crossing", "crossing": ""}, "name": "Paso de peatones"},
+"Pas de vianants": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "crossing", "uncontrolled", "unmarked", "zebra"], "searchable": true, "tags": {"highway": "crossing", "crossing": ""}, "name": "Pas de vianants"},
 
-"Semáforo": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semaforo"},
+"Semàfor": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["highway", "traffic_signals", "traffic_signals", "direction", "crossing"], "searchable": true, "tags": {"highway": "traffic_signals", "traffic_signals:direction": "", "crossing": ""}, "name": "Semàfor"},
 
-"Torre eléctrica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["power", "tower", "palo", "design", "poste"], "searchable": true, "tags": {"power": "tower", "design": ""}, "name": "Torre eléctrica"},
+"Torre elèctrica": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["power", "tower", "pal", "design"], "searchable": true, "tags": {"power": "tower", "design": ""}, "name": "Torre elèctrica"},
 
-"Transformador": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["power", "transformer"], "searchable": true, "tags": {"power": "transformer"}, "name": "Transformador eléctrico"},
+"Transformador": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["power", "transformer"], "searchable": true, "tags": {"power": "transformer"}, "name": "Transformador elèctric"},
 
-"Parquímetro": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquimetro"},
+"Parquímetre": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "vending_machine", "currency", "euros", "operator", "payments", "tiquet"], "searchable": true, "tags": {"amenity": "vending_machine", "currency:EUR": "yes", "operator": "", "payment:coins": "yes", "vending": "parking_tickets"}, "name": "Parquímetre"},
 
-"Aparcamiento turísico bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "tourist_bus_parking", "parking", "turista", "autobús", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "tourist_bus_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcamiento turístico bus"},
+"Aparcament turísic bus": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "tourist_bus_parking", "parking", "turista", "autobús", "underground", "tiquet", "gratuït", "subterrani", "disc"], "searchable": true, "tags": {"amenity": "tourist_bus_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcament turístic bus"},
 
-"Aparcamiento bicis": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bicycle_parking", "parking", "bicicleta", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "bicycle_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcamiento bicis"},
+"Aparcament bicis": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "bicycle_parking", "parking", "bicicleta", "fee", "underground", "tiquet", "gratuït", "subterrani", "disc"], "searchable": true, "tags": {"amenity": "bicycle_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcament bicis"},
 
-"Aparcamiento motos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "motorcycle_parking", "motocicleta", "access", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "motorcycle_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcamiento motos"},
+"Aparcament motos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "motorcycle_parking", "motocicleta", "access", "fee", "underground", "tiquet", "gratuït", "subterrani", "disc"], "searchable": true, "tags": {"amenity": "motorcycle_parking", "capacity": "", "fee": "", "access": ""}, "name": "Aparcament motos"},
 
-"Plaza aparcamiento minusválidos": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking_space", "parking", "disabled", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "parking_space", "capacity:disabled": "1"}, "name": "Plaza aparcamiento minusválidos"},
+"Plaça aparcament minusvàlids": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking_space", "parking", "disabled", "fee", "underground", "tiquet", "gratuït", "subterrani", "disc"], "searchable": true, "tags": {"amenity": "parking_space", "capacity:disabled": "1"}, "name": "Plaça aparcament minusvàlids"},
 
-"Aparcamiento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking", "access", "fee", "underground", "tiquet", "gratuito", "subterráneo", "disco"], "searchable": true, "tags": {"amenity": "parking", "parking": "", "fee": "", "access": ""}, "name": "Aparcamiento"},
+"Aparcament": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["amenity", "parking", "access", "fee", "underground", "tiquet", "gratuït", "subterrani", "disco"], "searchable": true, "tags": {"amenity": "parking", "parking": "", "fee": "", "access": ""}, "name": "Aparcament"},
 
-"Zona aparcamiento": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["parking:lane", "parking:condition", "residentes", "verde", "azul", "estacionamiento", "ora", "zona", "type", "fire_lane", "no_stopping", "no_parking", "marked", "perpendicular", "capacity", "disabled", "parallel", "tiquet"], "searchable": true, "tags": {"parking:lane:right": "", "parking:lane:left": "", "parking:condition:left": "", "parking:condition:right": ""}, "name": "Zona aparcamiento"},
+"Zona aparcament": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["parking:lane", "parking:condition", "residents", "verda", "blava", "estacionament", "ora", "zona", "type", "regulat", "fire_lane", "no_stopping", "no_parking", "marked", "perpendicular", "capacity", "disabled", "parallel", "tiquet"], "searchable": true, "tags": {"parking:lane:right": "", "parking:lane:left": "", "parking:condition:left": "", "parking:condition:right": ""}, "name": "Zona aparcament"},
 
-"Valla": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["barrier", "fence", "valla", "cerca"], "searchable": true, "tags": {"barrier": "fence"}, "name": "Valla_Cerca"},
+"Tanca": {"icon": "", "fields": [""], "geometry": ["point"], "terms": ["barrier", "fence", "tanca", "valla"], "searchable": true, "tags": {"barrier": "fence"}, "name": "Tanca"},
 
 
 
