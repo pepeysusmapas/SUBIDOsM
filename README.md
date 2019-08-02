@@ -1,32 +1,40 @@
-# Deriviste traffic signs
+# Clasificar y subir elementos a Open Street Map
 
-Deriviste traffic signs is a fork from Deriviste, whose is a proof-of-concept OpenStreetMap editor for adding POIs directly from street-level imagery (Mapillary). Ok, it's not really an editor as you can't edit anything, only create.
+SUBIDOsM, es una aplicación basada en una bifurcación de Deriviste, que es un editor de prueba de concepto de OpenStreetMap para agregar PDI directamente desde imágenes a nivel de calle (Mapillary). Ok, no es realmente un editor ya que no puedes editar nada, solo crear.
 
-Deriviste is written in largely prehistoric JavaScript and is licensed WTFPL with no warranty. Patches are lovely. Please send patches.
+Deriviste está escrito en JavaScript en gran parte prehistórico y tiene licencia WTFPL sin garantía. Los parches son bien recibidos. Por favor envíelos.
 
-Origins of Deriviste
+Orígenes de Deriviste
 
-In October 2018, a new OpenStreetMap tool called Deriviste was introduced by Richard Fairhurst. This tool presented the user with a way to directly create OSM data from user images on Mapillary, including by clicking directly on the image. Thanks to an experimental feature in the open-source MapillaryJS library, Deriviste meant that a click in the Mapillary image was translated to a point on the map. Richard borrowed some code from the OpenStreetMap iD editor in order to allow searching for OSM tag presets, then used simple user authentication to allow submission of the newly created data as an OSM changeset.
+En octubre de 2018, Richard Fairhurst introdujo una nueva herramienta OpenStreetMap llamada Deriviste. Esta herramienta presentó al usuario una forma de crear directamente datos OSM a partir de imágenes de usuario en Mapillary, incluso haciendo clic directamente en la imagen. Gracias a una característica experimental en la biblioteca MapillaryJS de código abierto, Deriviste significa que un clic en la imagen Mapillary se tradujo a un punto en el mapa. Richard tomó prestado algún código del editor de OpenStreetMap iD para permitir la búsqueda de valores predeterminados de etiquetas OSM, luego usó la autenticación de usuario simple para permitir el envío de los datos recién creados como un conjunto de cambios OSM.
 
-With a fork of this tool called Deriviste_traffic_signs you have a simple interface to add nodes to OpenStreetMap based on what you see in Mapillary street-level imagery.
+el Usuario @yopaseopor, hizo una bifurcación de esta herramienta y la llamó Deriviste_traffic_signs, tiene una interfaz simple para agregar nodos a OpenStreetMap en función de lo que ve en las imágenes de nivel de calle Mapillary, tradujo el codigo a Español y Catalan, aparte de traducir todas las etiquetas para no solo introducir señales de trafico, sino tambien diferentes elementos del mobiliario urbano como contenedores y sus tipos.
 
--Click a place on the map with a green highlight.
-    
--Double-click a traffic_sign object on the street imagery to place a node there.
-    
--Use the search box to find the code for this country in the preset.
-    
--Complete the tags using the right-hand tag table (don't forget key side).Delete the code for what direction is not. Deriviste screenshot4.png
-    
--Repeat until you're done.
-    
--Enter your OSM username and password, then click 'Upload'.
-    
--Make an overpass-turbo query to detect the new nodes (you can try to find traffic_sign:forward or traffic_sign backward)
-    
--Export it to other editor like JOSM, Vespucci, iD or Potlatch. Now you can attach to the road the traffic sign if you want to. Also you can remove any duplicates and generally clean up. The Mapillary API sometimes fails to find co-ordinates for a click.
+Si no tuvieras Mapillary puedes actuar de igual manera, pero te obliga a una captura de datos sobre el terreno, con mapillary puedes trabajar desde casa dado que ves los objetos en las imagenes. 
 
-The currently selected node is shown in red, others in blue. You can drag the nodes around to fine-tune their position. (You can also place nodes by double-clicking on the map.) 
+Para trabajar con la utilidad sige este procedimiento:
 
-You can see it live at https://yopaseopor.github.io/deriviste/index.html.
+-Haz clic en un lugar en el mapa con elementos de Mapillary. 
+
+-Haz doble clic en un objeto o señal de tráfico en las imágenes de la calle para colocar un nodo allí.
+
+-Utiliza el cuadro de búsqueda para encontrar el código de este país en el preajuste.
+
+-Completa las etiquetas usando la tabla de etiquetas de la derecha (no olvide el lado clave). Elimine el código para qué dirección no es. Deriviste screenshot4.png
+
+-Repite hasta que hayas terminado.
+
+-Ingresa tu nombre de usuario y contraseña de OSM, y  haz clic en 'Cargar'.
+
+Puedes ver los cambios mediante una consulta con overpass-turbo para detectar los nuevos nodos ayudandote del asistente de consultas.
+
+Tambien puedes exportarlo a otro editor como JOSM, Vespucci, iD o Potlatch. 
+
+Ahora puedes adjuntar a las carreteras las señales de tráfico, eliminar los duplicados y, en general, limpiar. 
+
+Al ser una aplicación básica a veces la API Mapillary no puede encontrar las coordenadas con un clic.
+
+El nodo seleccionado actualmente se muestra en rojo, otros en azul. Puedes arrastrar los nodos para ajustar su posición. También puedes colocarlos haciendo doble clic sobre la cartografía.
+
+Puede ver la aplicación funcionando en vivo en https://pepeysusmapas.github.io/SUBIDOsM/index.html
 
