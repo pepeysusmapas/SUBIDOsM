@@ -313,8 +313,8 @@ function startUpload() {
 //	if (markers.length==0) return;
 	var username = u('#username').first().value;
 	var password = u('#password').first().value;
-	if (!username || !password) return alert("You must enter an OSM username and password.");
-	var comment = prompt("Enter a changeset comment.","");
+	if (!username || !password) return alert("Introduce tu usuario y password de OSM.");
+	var comment = prompt("Introduce un comentario","");
 
 	// Create changeset
 	var str = '<osm><changeset><tag k="created_by" v="Deriviste" /><tag k="comment" v="" /><tag k="imagery_used" v="Mapillary Images" /><tag k="source" v="mapillary" /></changeset></osm>';
